@@ -1,4 +1,5 @@
-﻿using static System.Console;
+﻿using System.ComponentModel;
+using static System.Console;
 
 class AulaRef
 {
@@ -46,27 +47,42 @@ class AulaRef
         }
     }
 
-    static void LocalizarNome()
+    static ref string LocalizarNome(string[] nomes,string nome)
     {
-
+        for (int i = 0; i < nomes.Length; i++)
+        {
+            if(nomes[i] == nome)
+                return ref nomes[i];
+        }
+        throw new Exception("Nome não encontrado");
     }
     static void Main()
     {
     var nomes = new string []{"Jose","Maria","Ricardo","Lucas"};
         
         WriteLine($@"A lista de nomes alterados é:
-        {string.Join(", \n",nomes)}");
+            {string.Join(", \n",nomes)}
+            ");
         
         WriteLine("Digite o nome a se mudado!:");
         var nome = ReadLine();
         WriteLine("Digite um nome novo!:");
         var nomeNovo = ReadLine();
 
-        AlterarNome(nomes,nome,nomeNovo);
+        ref var NomeAchado = ref LocalizarNome(nomes, nome);
 
-        WriteLine($@"A lista de nomes alterados é:
-        {string.Join(", \n",nomes)}");
+        if(!string.IsNullOrWhiteSpace(NomeAchado))
+        {
+            NomeAchado = nomeNovo;
 
-        LocalizarNome(nomes, nome);
+            WriteLine($@"A lista de nomes alterados é:
+            {string.Join(", \n",nomes)}
+            ");
+        }
+        else
+        {
+            WriteLine("Nome não encontrado");
+        }
+
     }
 }
