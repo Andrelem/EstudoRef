@@ -1,0 +1,15 @@
+C:\Users\Andre\Documents\Csharp\EstudoRef\bin\Debug\net8.0\EstudoRef.exe
+C:\Users\Andre\Documents\Csharp\EstudoRef\bin\Debug\net8.0\EstudoRef.deps.json
+C:\Users\Andre\Documents\Csharp\EstudoRef\bin\Debug\net8.0\EstudoRef.runtimeconfig.json
+C:\Users\Andre\Documents\Csharp\EstudoRef\bin\Debug\net8.0\EstudoRef.dll
+C:\Users\Andre\Documents\Csharp\EstudoRef\bin\Debug\net8.0\EstudoRef.pdb
+C:\Users\Andre\Documents\Csharp\EstudoRef\obj\Debug\net8.0\EstudoRef.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andre\Documents\Csharp\EstudoRef\obj\Debug\net8.0\EstudoRef.AssemblyInfoInputs.cache
+C:\Users\Andre\Documents\Csharp\EstudoRef\obj\Debug\net8.0\EstudoRef.AssemblyInfo.cs
+C:\Users\Andre\Documents\Csharp\EstudoRef\obj\Debug\net8.0\EstudoRef.csproj.CoreCompileInputs.cache
+C:\Users\Andre\Documents\Csharp\EstudoRef\obj\Debug\net8.0\EstudoRef.sourcelink.json
+C:\Users\Andre\Documents\Csharp\EstudoRef\obj\Debug\net8.0\EstudoRef.dll
+C:\Users\Andre\Documents\Csharp\EstudoRef\obj\Debug\net8.0\refint\EstudoRef.dll
+C:\Users\Andre\Documents\Csharp\EstudoRef\obj\Debug\net8.0\EstudoRef.pdb
+C:\Users\Andre\Documents\Csharp\EstudoRef\obj\Debug\net8.0\EstudoRef.genruntimeconfig.cache
+C:\Users\Andre\Documents\Csharp\EstudoRef\obj\Debug\net8.0\ref\EstudoRef.dll

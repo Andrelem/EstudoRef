@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Andre\\Documents\\Csharp\\EstudoRef\\EstudoRef.csproj": {}
+    "C:\\Users\\Andre\\Documents\\Csharp\\EstudoRef\\EstudoRef.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Andre\\Documents\\Csharp\\EstudoRef\\EstudoRef.csproj": {
+    "C:\\Users\\Andre\\Documents\\Csharp\\EstudoRef\\EstudoRef.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Andre\\Documents\\Csharp\\EstudoRef\\EstudoRef.csproj",
+        "projectUniqueName": "C:\\Users\\Andre\\Documents\\Csharp\\EstudoRef\\EstudoRef.csproj",
         "projectName": "EstudoRef",
-        "projectPath": "c:\\Users\\Andre\\Documents\\Csharp\\EstudoRef\\EstudoRef.csproj",
+        "projectPath": "C:\\Users\\Andre\\Documents\\Csharp\\EstudoRef\\EstudoRef.csproj",
         "packagesPath": "C:\\Users\\Andre\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Andre\\Documents\\Csharp\\EstudoRef\\obj\\",
+        "outputPath": "C:\\Users\\Andre\\Documents\\Csharp\\EstudoRef\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Visual\\Sdk\\NuGetPackages"
