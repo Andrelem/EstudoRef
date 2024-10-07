@@ -2,6 +2,28 @@
 
 class AulaRef
 {
+    static void Demoperso()
+    {
+        var nome = new string []{"Andre","Pedro","Joao","Felipe"};
+        WriteLine($"A lista é {string.Join(", \n",nome)}");
+    }
+    static void Demo2()
+    {
+        var nomes = new string []{"Jose","Maria","Ricardo","Lucas"};
+        
+         WriteLine($@"A lista de nomes alterados é:
+         {string.Join(", \n",nomes)}");
+        
+        WriteLine("Digite o nome a se mudado!:");
+        var nome = ReadLine();
+        WriteLine("Digite um nome novo!:");
+        var nomeNovo = ReadLine();
+
+        AlterarNome(nomes,nome,nomeNovo);
+
+        WriteLine($@"A lista de nomes alterados é:
+        {string.Join(", \n",nomes)}");
+    }
     static void Demo1()
     {
          int a = 5;
@@ -23,12 +45,17 @@ class AulaRef
             }
         }
     }
+
+    static void LocalizarNome()
+    {
+
+    }
     static void Main()
     {
-        var nomes = new string []{"Jose","Maria","Ricardo","Lucas"};
+    var nomes = new string []{"Jose","Maria","Ricardo","Lucas"};
         
-         WriteLine($@"A lista de nomes alterados é:
-         {string.Join(", \n",nomes)}");
+        WriteLine($@"A lista de nomes alterados é:
+        {string.Join(", \n",nomes)}");
         
         WriteLine("Digite o nome a se mudado!:");
         var nome = ReadLine();
@@ -39,5 +66,7 @@ class AulaRef
 
         WriteLine($@"A lista de nomes alterados é:
         {string.Join(", \n",nomes)}");
+
+        LocalizarNome(nomes, nome);
     }
 }
